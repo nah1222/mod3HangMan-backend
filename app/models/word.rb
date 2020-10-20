@@ -1,3 +1,3 @@
 class Word < ApplicationRecord
-  belongs_to :game
+  has_many :games
 end

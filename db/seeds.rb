@@ -5,7 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Word.destroy_all()
-50.times do 
+# Word.destroy_all
+
+20.times do 
     Word.create(phrase: Faker::TvShows::MichaelScott.quote)
 end
